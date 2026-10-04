@@ -1,6 +1,7 @@
+# 🚀 SysAdmin to Cloud Engineer: Infrastructure Runbooks
+
 ![Laboratorio de infraestuctura](/assets/img/Code_Generated_Image.png)
 
-# 🚀 SysAdmin to Cloud Engineer: Infrastructure Runbooks
 
 Este repositorio consolida mis prácticas y procedimientos (SOPs) a lo largo del roadmap hacia la administración avanzada de sistemas y operaciones Cloud/DevOps. Todo el entorno está construido en un laboratorio propio.
 
