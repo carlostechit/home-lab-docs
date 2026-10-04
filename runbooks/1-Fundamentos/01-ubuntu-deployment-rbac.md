@@ -30,7 +30,7 @@ Configuración de la máquina virtual con tecnologías de virtualización modern
   * **`efidisk0`** (Mapeo de la partición de sistema UEFI).
   * **`net0`** (Interfaz de red VirtIO en el bridge `vmbr0`).
 
-![Confirmación de Creación de VM en Proxmox](image_5f2d5a.png)
+![Confirmación de Creación de VM en Proxmox](../1-Fundamentos/assets/img/Captura%20de%20pantalla%202026-10-04%20134231.png)
 
 ---
 
