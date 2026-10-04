@@ -75,3 +75,12 @@ PS C:\Windows\System32>
 **⚠️ Nota técnica sobre Generación 1 e Instalador Gráfico:**
 Al desplegar Proxmox VE en una máquina virtual de **Generación 1** en Hyper-V, el instalador gráfico por defecto puede fallar al cargar el adaptador de vídeo emulado (pantalla negra o congelación).
 * **Solución:** En el menú de arranque de la ISO de Proxmox, seleccionar la opción de instalación por **Terminal UI (Text mode)** o utilizar el modo de depuración para completar la instalación de forma fluida a través de la consola de comandos del instalador.
+
+## 5. Post-Instalación, Repositorios y Verificación de Operatividad
+1. **Configuración de Red Definitiva:** Establecer reserva estática de IP en el router para el adaptador virtual y verificar conectividad.
+2. **Gestión de Repositorios (*No-Subscription*):** 
+   * Desactivar los repositorios comerciales corporativos (*Enterprise*).
+   * Añadir los repositorios públicos de Proxmox VE sin suscripción para permitir actualizaciones de paquetes gratuitas.
+3. **Verificación final:** Acceder a la interfaz web de gestión a través de `https://<tu-ip>:8006` y comprobar el registro de tareas.
+
+![Registro de Tareas y Operatividad del Nodo](../0-Infraestructura%20Base/assets/img/Captura%20de%20pantalla%202026-10-04%20030251.png)
