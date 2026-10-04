@@ -6,7 +6,7 @@ Este repositorio consolida mis prácticas y procedimientos (SOPs) a lo largo del
 
 | Fase | Áreas Core | Objetivo Técnico (Proyecto) |
 | :--- | :--- | :--- |
-| **0. Infraestructura Base** | Hyper-V, Virtualización Anidada, Proxmox VE. | Aprovisionamiento de hipervisor Tipo 1 virtualizado y passthrough de extensiones CPU. |
+| **[0. Infraestructura Base](runbooks/0-Infraestructura%20Base/00-proxmox-nested-hyperv.md)** | Hyper-V, Virtualización Anidada, Proxmox VE. | Aprovisionamiento de hipervisor Tipo 1 virtualizado y passthrough de extensiones CPU. |
 | **1. Fundamentos** | Terminal, permisos, FHS, instalación de Ubuntu Server LTS. | Aprovisionamiento de Ubuntu Server en VM, gestión de RBAC y particionado tradicional. |
 | **2. Storage & Servicios** | LVM, control de procesos, `systemd`, hardening SSH, ufw/nftables. | Despliegue de stack web seguro (Firewall + SSH keys). Simulación y resolución de Kernel Panic/Boot failure. |
 | **3. Automatización** | Bash scripting (awk, sed, grep), crontab, fundamentos de Ansible. | Automatización de backups mediante scripts y primer playbook de configuración de estado deseado (Ansible). |
